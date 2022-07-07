@@ -1,0 +1,85 @@
+.container {
+    max-width: 1200px;
+    height: 100%;
+    display: block;
+    padding: 20px;
+}
+.content {
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-box {
+    box-shadow: 0px 0px 1px 0px #000000db;
+    border: 1px solid #0000006e;
+    border-radius: 2px;
+    height: 25px;
+    padding: 0 10px;
+    width: 95%;
+    margin: 10px 0;
+}
+.coluna {
+    width: 50%;
+    height: 100%;
+}
+.d-flex {
+    display: flex;
+}
+.logo-img {
+    margin: auto;
+}
+.card {
+    margin: auto;    
+}
+h2 {
+    font-family: none;
+    color: rgb(255, 64, 64);
+}
+.btn-logar{
+    background-color: rgb(255, 64, 64);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 100px;
+    float: right;
+    cursor: pointer;
+}
+.esquecisenha{
+    cursor: pointer;
+    color: rgb(226, 76, 76);
+}
+
+body{
+    background-color: rgb(214, 161, 161);
+}
+.msg-validacao{
+    color: red;
+}
+.cardcadastro{
+    width: 800px;
+    height: 500px;
+    background-color: rgba(240, 118, 118, 0.178);
+    padding: 10px  50px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+h1{
+    color: rgb(231, 35, 35);
+}
+.botao-cadastro {
+    margin-right: 18px;
+}
+.cadastro{
+    color: rgb(219, 70, 70);
+    text-align: center;
+    }
+.btn-cadastro{
+    background-color: rgb(255, 64, 64);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 100px;
+    float: center;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
